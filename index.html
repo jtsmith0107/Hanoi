@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Towers of Hanoi </title>
+  <link rel = "stylesheet" href = "hanoi.css">
+  <script src = "jquery.js"></script>
+  <script src = "underscore.js"></script>
+  <script src = "hanoi.js"></script>
+  <script src = "hanoi_ui.js"></script>
+  
+</head>
+<body>
+  <h1>Welcome to Towers of Hanoi!</h1>
+  
+  <div id = "board"></div>
+  <script type="text/javascript">
+  $(function(){
+    var hanoiui = new Hanoi.HanoiUI($('#board'));
+    hanoiui.setUpBoard();
+    hanoiui.setUpHandlers();
+  })
+  </script>
+  
+</body>
+
+</html>

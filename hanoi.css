@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#board {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.col {
+  height: 300px;
+  width: 100px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  outline: black 1px solid;
+  vertical-align: bottom;
+}
+
+#disk0 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25px;
+  height: 100px;
+  outline: black 1px solid;
+  display: block;
+  text-align: center;
+}
+
+#disk1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 100px;
+  outline: black 1px solid;
+  display: block;
+  text-align: center;
+}
+
+#disk2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;
+  height: 100px;
+  outline: black 1px solid;
+  display: block;
+  text-align: center;
+}
